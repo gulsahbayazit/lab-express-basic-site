@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-size: 10px;
+  font-family: "Aboreto", cursive;
+  color: black;
+  padding: 0;
+}
+/* Home */
+nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-left: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* About */
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  margin: auto;
+}
+
+.bio {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.portre {
+  width: 100%;
+}
+
+/* About */
+.imgWork {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 2rem;
+}
